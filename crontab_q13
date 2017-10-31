@@ -1,0 +1,3 @@
+#! /bin/bash
+23 20 15-21 */2 * [ "$(date '+\%a')" == "wed" ] && find . -mtime -90 -type f -exec cp {} pratyush.kumar@mirage.iiit.ac.in:~\;
+
